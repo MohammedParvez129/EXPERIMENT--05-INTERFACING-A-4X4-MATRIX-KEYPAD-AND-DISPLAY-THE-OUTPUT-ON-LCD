@@ -223,7 +223,7 @@ void key()
 	 col4 = HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_7);
 	 if(!col1)
 	 {
-	 	   		   	  	 		  Lcd_cursor(&lcd, 0,1);
+								  Lcd_cursor(&lcd, 0,1);
 	 	   		   	  	 	  	  Lcd_string(&lcd, "Key 7\n");
  	 	   		   	  	 	  	  col1=1;
 	 }
@@ -485,7 +485,9 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Output screen shots of proteus  :
 
- ![Screenshot 2024-10-03 090033](https://github.com/user-attachments/assets/82e20479-25c7-4851-bfe8-24a3edb7bf86)
+![Screenshot 2024-10-03 091407](https://github.com/user-attachments/assets/a0fcd3fe-d285-403d-b5eb-f55678e81da7)
+
+![Screenshot 2024-10-03 090033](https://github.com/user-attachments/assets/82e20479-25c7-4851-bfe8-24a3edb7bf86)
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
